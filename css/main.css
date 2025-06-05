@@ -4,7 +4,6 @@ body {
 }
 
 main {
-
     display: grid;
     grid-template-columns: 90px 1fr;
     gap: 3rem;
@@ -19,19 +18,15 @@ main:hover {
     border: solid rgb(255, 105, 18) 1px;
 }
 
-a#avatar {
+#avatar img{
     background-color: rgb(255, 255, 255);
     height: 110px;
     aspect-ratio: 1;
     border-radius: 100%;
-    background-image: url(images/avatar1.jpg);
     background-size: cover;
     border:   0.5rem solid rgb(26, 26, 26);
 }
-a#avatar:hover {
-    border:   2px solid rgb(255, 105, 18);
-    cursor: pointer;
-}
+
 
 
 div#bio {
